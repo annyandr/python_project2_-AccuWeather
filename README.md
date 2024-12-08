@@ -5,12 +5,12 @@
 
 ## Установка
 1. Склонируйте репозиторий:
-   bash
+'''bash
    git clone https://github.com/annyandr/python_project2_-AccuWeather.git
    cd weather-route
 
 2. Установите необходимые зависимости:
-   bash
+'''bash
    pip install -r requirements.txt
 
 3. Создайте файл .env и добавьте ваш API ключ:
