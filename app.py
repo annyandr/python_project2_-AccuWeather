@@ -7,7 +7,7 @@ from api import get_weather, get_location_key, check_bad_weather, parse_needed_v
 load_dotenv()
 
 app = Flask(__name__)
-API_KEY = os.getenv("API_KEY")  # Исправлено на правильное получение ключа
+API_KEY = os.getenv("API_KEY")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
